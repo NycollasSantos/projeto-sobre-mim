@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+html {height:100%;}  
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(90deg,rgba(177,13,231,1) 24%, rgba(0,212,255,1) 100%);
+}
+
+.div-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.box{
+    position: absolute;
+    padding: 40px 180px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    color: #fff;
+    background: rgba(22, 22, 22, 0.898);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+
+.imagen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img{ 
+    width: 200px;
+    margin-top: 60px;
+    border-radius: 800px;
+    border: 5px solid rgb(107, 0, 246);
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.descricao{
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    margin-top: -60px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+
+.conjunto-btn{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.btn-github{
+    border: 2px solid rgb(0, 172, 246);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px;
+    border-radius: 5px; 
+    -webkit-transition-duration: 0.4s; / * Safari * /
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-github:hover {
+    background-color: rgb(0, 172, 246);
+    color: white;
+}
+
+
+.btn-linkedin{
+    border: 2px solid rgb(0, 172, 246);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px; 
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s; / * Safari * /
+    transition-duration: 0.4s;
+    cursor: pointer; 
+}
+
+.btn-linkedin:hover {
+    background-color: rgb(0, 172, 246);
+    color: white;
+}
+
+.btn-portifolio{
+    border: 2px solid rgb(0, 172, 246);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s; / * Safari * /
+    transition-duration: 0.4s;
+    cursor: pointer;  
+}
+
+.btn-portifolio:hover {
+    background-color: rgb(0, 172, 246);
+    color: white;
+}
+
+@media (max-width:580px){
+
+    .div-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+    .box{
+        position: absolute;
+        padding: 40px 5px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+        color: #fff;
+        background: rgba(22, 22, 22, 0.898);
+        border: 2px solid rgba(255,255,255,0.1);
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    }
+    .imagen{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img{ 
+        width: 200px;
+        margin-top: 60px;
+        border-radius: 800px;
+        border: 5px solid rgb(107, 0, 246);
+    }
+    .nome{
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 45px;
+        color: rgb(255, 255, 255);
+    }
+
+    .descricao{
+        display: flex;
+        margin-top: -45px;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+
+    .conjunto-btn{
+        display: flex;
+        font-family: sans-serif;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        margin-top: 30px;
+        gap: 25px;
+}
+
+.texto-footer{
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+}
+
+
+@media (max-width:375px){
+
+    .div-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+    .box{
+        position: absolute;
+        padding: 10px 5px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+        color: #fff;
+        background: rgba(22, 22, 22, 0.898);
+        border: 2px solid rgba(255,255,255,0.1);
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    }
+    .imagen{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img{ 
+        width: 150px;
+        margin-top: 60px;
+        border-radius: 800px;
+        border: 5px solid rgb(107, 0, 246);
+    }
+    .nome{
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+    }
+
+    .descricao{
+        display: flex;
+        margin-top: -35px;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+    }
+
+    .conjunto-btn{
+        display: flex;
+        font-family: sans-serif;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        margin-top: 30px;
+        gap: 10px;
+}
+
+.texto-footer{
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+}
+
+
+.texto-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
